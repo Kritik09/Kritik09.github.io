@@ -56,5 +56,11 @@
         flex-direction: column;
     } 
 }
-@media (width:320px) {
+@media (max-height:500px){
+    .photo{
+        display: none;
+    }
+    .header__container{
+        justify-content: center;
+    }
 }
