@@ -3,8 +3,17 @@ import './projects.css'
 import sortingImg from '../../assets/sorting.jpg'
 import snakeImg from '../../assets/snake.jpg'
 import clockImg from '../../assets/clock.jpg'
+import portfolioImg from '../../assets/Portfolio.jpg'
 export const Projects = () => {
   const data=[
+    {
+      name:"Personal Portfolio Website",
+      id:"portfolio",
+      image:portfolioImg,
+      about:"Completely responsive portfolio website using React JS",
+      github:"https://github.com/Kritik09/Kritik09.github.io",
+      demo:"https://kritik09.github.io"
+    },
     {
       name:"Sorting Algorithm Visualizer",
       id:"sorting",
