@@ -1,0 +1,22 @@
+[
+    {
+        "name":"VS-Code",
+        "wid":50
+    },
+    {
+        "name":"Adobe PhotoShop",
+        "wid":45
+    },
+    {
+        "name":"Adobe Illustrator",
+        "wid":50
+    },
+    {
+        "name":"Adobe Premier Pro",
+        "wid":55
+    },
+    {
+        "name":"Git Hub",
+        "wid":65
+    }
+]

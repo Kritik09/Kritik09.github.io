@@ -1,0 +1,109 @@
+/* RespNav */
+.respnav{
+    background: var(--color-light);
+    border: 2px solid var(--color-white);
+    display: grid;
+    grid-template-columns: 15% 75%;
+    justify-content: space-around;
+    padding: 0.7rem;
+    height: 5rem;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.respnavlogo span{
+    font-size: 3rem;
+}
+.respnav h1{
+    font-size: 1.5rem;
+}
+#myName{
+    font-size: 1.5rem;
+    color: var(--color-black);
+}
+.hamburger__icon{
+    display: none;
+}
+
+/* Nav Links */
+.respnav__link h1{
+    color: var(--color-white);
+}
+.respnav__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.respnav__link{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.respnav__link a h1{
+    cursor: pointer;
+}
+.respnav__link a h1:hover{
+    text-decoration:underline;
+    text-decoration-color: var(--color-light-two);
+}
+/* NavLinks Mobile */
+.mobile__links{
+    display: none;
+}
+
+.mobile__link{
+    padding: 1rem;
+}
+.mobile__item h1{
+    color: var(--color-light-variant);
+    transition: var(--trans);
+}
+.mobile__item h1:hover{
+    color: var(--color-white);
+    text-decoration: underline;
+
+}
+
+/* Media Query */
+@media (max-width:1280px){
+    .mobile__links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 4.9rem;
+        background: var(--color-light-two);
+        padding: 2rem;
+        width: 100%;
+        border-top:2px solid var(--color-white);
+        opacity: 0.9;
+    }
+    .respnav__links{
+        display: none;
+    }
+    .hamburger__icon{
+        display: block;
+        font-size: 3rem;
+        color: var(--color-white);
+    }
+    .respnav{
+        grid-template-columns: 45% 15%;
+        align-items: center;
+    }
+}
+@media (max-width:700px) {
+    .hamburger__icon{
+        font-size: 2rem;
+    }
+}
+@media (max-height:500px) {
+    .mobile__links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+        top: 4.9rem;
+        background: var(--color-light-two);
+        padding: 2rem;
+        width: 100%;
+        border-top:2px solid var(--color-white);
+        opacity: 0.9;
+    }
+}

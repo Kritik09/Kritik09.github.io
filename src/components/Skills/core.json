@@ -1,0 +1,22 @@
+[
+    {
+        "name":"DSA",
+        "wid":80
+    },
+    {
+        "name":"OOPS",
+        "wid":65
+    },
+    {
+        "name":"DBMS",
+        "wid":65
+    },
+    {
+        "name":"Operating System",
+        "wid":50
+    },
+    {
+        "name":"Computer Networks",
+        "wid":40
+    }
+]

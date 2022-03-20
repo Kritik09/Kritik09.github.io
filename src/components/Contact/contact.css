@@ -1,0 +1,121 @@
+.contact__main__container{
+    padding-top: 5rem;
+}
+.contact__main__container h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.contact__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.contact__social__links{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.contact__icons{
+    font-size: 2rem;
+    color: var(--color-light-two-variant);
+}
+.icon__area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    background:var(--color-light-variant);
+    margin: 1rem;
+    border-radius: 2rem;
+    border: 5px solid var(--color-white);
+    outline: 2px solid var(--color-dark-variant);
+}
+.icon__area h4{
+    font-size: 1rem;
+    color: var(--color-white);
+}
+.icon__area a{
+    font-size: 0.9rem;
+    border: 2px solid var(--color-white);
+    border-radius: 10px;
+    background: var(--color-light-two);
+    color: var(--color-white);
+    padding: 0.2rem;
+}
+.icon__area a:hover{
+    background: var(--color-light-two-variant);
+}
+.message__area{
+    
+    width: 70%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--color-light-variant);
+    border: 5px solid var(--color-white);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+input, textarea{
+    border: 1px solid var(--color-white);
+    border-radius: 2rem;
+    background: transparent;
+    padding: 1rem;
+    color: var(--color-white);
+}
+.butn{
+    margin:auto;
+    padding:0.2rem;
+    background: var(--color-light);
+    border:2px solid var(--color-white);
+    border-radius: 5px;
+    width: 20%; 
+    color: var(--color-white);
+    font-size: 1rem;
+}
+.butn:hover{
+    cursor: pointer;
+    background: var(--color-light-two-variant);
+}
+
+@media (max-width:900px) {
+    .contact__container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .message__area{
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .icon__area{
+        margin: 1rem auto;
+        min-width: 20rem;
+    }
+    .contact__social__links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:700px) {
+    .contact__social__links{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:375px){
+    .contact__social__links{
+        min-width: 1rem;
+    }
+    .icon__area{
+        min-width: 1rem;
+    }
+    .message__area{
+        min-width: 1rem;
+    }
+    .butn{
+        font-size: 8px;
+    }
+}

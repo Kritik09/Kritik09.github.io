@@ -1,0 +1,123 @@
+.projects__main__container{
+    padding-top: 5rem;
+}
+.projects__main__container h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.projects__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+.projects__details{
+    background: var(--color-light-variant);
+    padding: 0 1rem;
+    width: 80%;
+    margin: 1rem 2rem;
+    border: 5px solid var(--color-white);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects__details h4{
+    color: var(--color-white);
+}
+.projects__photo img{
+    height: 95%;
+    width: 95%;
+    object-fit: contain;
+}
+.projects__link{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+.butn{
+    background: var(--color-black);
+    text-align: center;
+    color: var(--color-white);
+    transition: none;
+}
+.butn__link{
+    padding: 0.5rem;
+    background: var(--color-black);
+    text-align: center;
+    transition: none;
+    border-radius: 0.5rem;
+    font-size: 12px;
+    color: var(--color-white);
+}
+.butn__link:hover{
+    cursor: pointer;
+    background: var(--color-light-two);
+}
+.blur{
+    filter: blur(20px);
+    user-select: none;
+    pointer-events: none;
+}
+.butn.close{
+    margin-top: 1rem;
+}
+.pop__up{
+    background-color: var(--color-white);
+    width: 50%;
+    /* min-height: 25rem; */
+    text-align: center;
+    padding: 1rem;
+    border: 5px solid var(--color-black);
+    border-radius: 2rem;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11;
+    visibility: hidden;
+}
+.pop__up.active{
+    visibility: visible;
+    top: 30%;
+    transition: 0.5s;
+}
+.inactive{
+    cursor: default;
+    pointer-events: none;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 2px;
+}
+@media (max-width:1080px) {
+    .projects__container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:540px){
+    /* .projects__details{
+        height: 16rem;
+        width: 16rem;
+    } */
+    .projects__details h4{
+        font-size: 10px;
+    }
+    .btn{
+        padding: 0.2rem;
+        border-radius: 0;
+        font-size: 10px;
+    }
+    .pop__up{
+        margin:auto;
+        width: 14rem;
+    }
+    .butn.close{
+        width: auto;
+    }
+}

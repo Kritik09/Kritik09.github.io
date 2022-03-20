@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Html",
+        "wid":70
+    },
+    {
+        "name":"CSS",
+        "wid":65
+    },
+    {
+        "name":"JavaScript",
+        "wid":55
+    },
+    {
+        "name":"React",
+        "wid":40
+    },
+    {
+        "name":"SQL",
+        "wid":40
+    }
+]

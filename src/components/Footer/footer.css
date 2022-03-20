@@ -1,0 +1,23 @@
+.footer__main__container{
+    text-align: center;
+    background: var(--color-light-two-variant);
+    padding: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+    justify-content: center;
+}
+.footer__main__container h2,h4{
+    color: var(--color-black-variant);
+}
+.footer__icons{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0.5rem;
+}
+.individual__icon a{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: var(--color-black-variant);
+}
