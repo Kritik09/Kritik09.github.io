@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Kritik09.github.io/static/css/main.a6b449a6.css",
+    "main.js": "/Kritik09.github.io/static/js/main.2dbd736d.js",
+    "static/media/sorting.jpg": "/Kritik09.github.io/static/media/sorting.fc5f756c5b572799f296.jpg",
+    "static/media/Profile.jpg": "/Kritik09.github.io/static/media/Profile.ceabb53b6b3aa23c4a6c.jpg",
+    "static/media/clock.jpg": "/Kritik09.github.io/static/media/clock.854d4dc883059745a073.jpg",
+    "static/media/cv.pdf": "/Kritik09.github.io/static/media/cv.fee472d733963fc21a9c.pdf",
+    "static/media/snake.jpg": "/Kritik09.github.io/static/media/snake.c6a187f71bf849f971f7.jpg",
+    "index.html": "/Kritik09.github.io/index.html",
+    "main.a6b449a6.css.map": "/Kritik09.github.io/static/css/main.a6b449a6.css.map",
+    "main.2dbd736d.js.map": "/Kritik09.github.io/static/js/main.2dbd736d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6b449a6.css",
+    "static/js/main.2dbd736d.js"
+  ]
+}
