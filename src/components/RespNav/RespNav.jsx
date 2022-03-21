@@ -14,7 +14,7 @@ export const RespNav = () => {
   return (
       <div className={classes.respnav} id="navbar">
           <div className={classes.respnavlogo}>
-              <a href="#" onClick={isClicked}><h1 id={classes.myName}><span>K</span>RITIK</h1></a>
+              <a href="#" onClick={close}><h1 id={classes.myName}><span>K</span>RITIK</h1></a>
           </div>
           <NavLinks/>
           {flag?<NavlinksMobile close={close}/>:null}      

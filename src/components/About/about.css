@@ -1,5 +1,5 @@
 .about__main{
-    color: white;
+    color: var(--color-white);
     padding-top: 5rem;
 }
 .heading{
@@ -27,23 +27,20 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: var(--color-light-variant);
+    background: var(--color-bg-variant);
     border: 5px solid var(--color-white);
-    outline: 2px solid var(--color-dark-variant);
     border-radius: 1.5rem;
     transition: var(--trans);
-}
-.about__article h1{
-    color: var(--color-light-two);
 }
 .about__article h4{
     color: var(--color-white);
 }
 .about__article h2,h4{
+    color: var(--color-primary);
     margin: 0.5rem;
 }
 .about__article:hover{
-    background:rgba(31, 66, 66, 0.4);
+    background:transparent;
 }
 
 @media (max-width:1024px) {

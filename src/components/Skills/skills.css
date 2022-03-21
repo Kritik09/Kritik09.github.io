@@ -19,18 +19,18 @@
 }
 .skills__inner__container{
     margin: 1rem;
-    background:var(--color-light-variant);
+    background:var(--color-bg-variant);
     min-height: 20rem;
     padding: 1rem;
     border: 5px solid var(--color-white);
     border-radius: 2rem;
-    outline: 2px solid var(--color-dark-variant);
     transition: var(--trans);
 }
 .skills__inner__container:hover{
     background: transparent;
 }
 .skills__inner__container h2{
+    color: var(--color-primary);
     text-decoration: underline;
 }
 

@@ -1,7 +1,6 @@
 /* RespNav */
 .respnav{
-    background: var(--color-light);
-    border: 2px solid var(--color-white);
+    background: rgba(0,0,0,0.8);
     display: grid;
     grid-template-columns: 15% 75%;
     justify-content: space-around;
@@ -20,7 +19,7 @@
 }
 #myName{
     font-size: 1.5rem;
-    color: var(--color-black);
+    color: var(--color-primary);
 }
 .hamburger__icon{
     display: none;
@@ -39,12 +38,12 @@
     padding: 0.5rem;
     cursor: pointer;
 }
-.respnav__link a h1{
+.respnav__link a h2{
     cursor: pointer;
 }
-.respnav__link a h1:hover{
+.respnav__link a h2:hover{
     text-decoration:underline;
-    text-decoration-color: var(--color-light-two);
+    text-decoration-color: var(--color-primary-variant);
 }
 /* NavLinks Mobile */
 .mobile__links{
@@ -55,7 +54,7 @@
     padding: 1rem;
 }
 .mobile__item h1{
-    color: var(--color-light-variant);
+    color: var(--color-white);
     transition: var(--trans);
 }
 .mobile__item h1:hover{
@@ -71,7 +70,7 @@
         flex-direction: column;
         position: absolute;
         top: 3rem;
-        background: var(--color-light-two);
+        background: rgba(0,0,0,0.8);
         padding: 2rem;
         width: 100%;
         border-top:2px solid var(--color-white);
@@ -85,7 +84,6 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        /* overflow: hidden; */
     }
     .respnav h1{
         font-size: 1rem;
@@ -109,7 +107,7 @@
         grid-template-columns: 1fr 1fr;
         position: absolute;
         top: 3rem;
-        background: var(--color-light-two);
+        background: rgba(0,0,0,0.8);
         padding: 2rem;
         width: 100%;
         border-top:2px solid var(--color-white);

@@ -64,7 +64,7 @@ export const Projects = () => {
       {data.map((val,ind)=>(
         <div className="pop__up" key={ind} id={`${val.id}`}>
           <h4>{val.name}</h4>
-          <p style={{color:'var(--color-black)'}}>{val.about}</p>
+          <p style={{color:'var(--color-white)'}}>{val.about}</p>
           <div className="projects__link">
             <a href={val.demo} target='_blank' className={val.demo===""?'butn__link inactive':'butn__link active'}>View Project</a>
             <a href={val.github} target='_blank' className={val.github===""?'butn__link inactive':'butn__link active'}>Github</a>

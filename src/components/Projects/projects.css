@@ -14,7 +14,7 @@
     margin: 1rem;
 }
 .projects__details{
-    background: var(--color-light-variant);
+    background: var(--color-bg-variant);
     padding: 0 1rem;
     width: 80%;
     margin: 1rem 2rem;
@@ -26,7 +26,8 @@
     align-items: center;
 }
 .projects__details h4{
-    color: var(--color-white);
+    color: var(--color-primary);
+    text-decoration: underline;
 }
 .projects__photo img{
     height: 95%;
@@ -42,14 +43,20 @@
     gap: 1rem;
 }
 .butn{
-    background: var(--color-black);
+    background: var(--color-primary);
     text-align: center;
     color: var(--color-white);
     transition: none;
 }
+.butn:hover{
+    background: var(--color-primary-variant);
+}
+.btn:hover{
+    background: var(--color-primary-variant);
+}
 .butn__link{
     padding: 0.5rem;
-    background: var(--color-black);
+    background: var(--color-primary);
     text-align: center;
     transition: none;
     border-radius: 0.5rem;
@@ -58,7 +65,7 @@
 }
 .butn__link:hover{
     cursor: pointer;
-    background: var(--color-light-two);
+    background: var(--color-primary-variant);
 }
 .blur{
     filter: blur(20px);
@@ -69,12 +76,12 @@
     margin-top: 1rem;
 }
 .pop__up{
-    background-color: var(--color-white);
+    background-color: var(--color-bg-variant);
     width: 50%;
     /* min-height: 25rem; */
     text-align: center;
     padding: 1rem;
-    border: 5px solid var(--color-black);
+    border: 5px solid var(--color-white);
     border-radius: 2rem;
     position: fixed;
     top: 20%;
@@ -82,6 +89,9 @@
     transform: translate(-50%);
     z-index: 11;
     visibility: hidden;
+}
+.pop__up h4{
+    color: var(--color-primary);
 }
 .pop__up.active{
     visibility: visible;
