@@ -102,6 +102,9 @@ input, textarea{
     .contact__social__links{
         grid-template-columns: 1fr;
     }
+    .butn{
+        font-size: 12px;
+    }
 }
 @media (max-width:375px){
     .contact__social__links{
