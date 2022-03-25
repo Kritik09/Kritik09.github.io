@@ -103,7 +103,7 @@ input, textarea{
         grid-template-columns: 1fr;
     }
     .butn{
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 @media (max-width:375px){
@@ -118,5 +118,10 @@ input, textarea{
     }
     .butn{
         font-size: 8px;
+    }
+}
+@media (max-width:300px) {
+    .butn{
+        font-size: 6px;
     }
 }
