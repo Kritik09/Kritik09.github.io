@@ -16,6 +16,8 @@ export const Achievements = () => {
               <h2>Academic Achievements</h2>
               <h4><GiRibbonMedal className='ach__ribbon'/>4 star coder at Codechef <a href='https://www.codechef.com/users/kritik_09' target='_blank'>@kritik_09</a></h4>
               <h4><GiRibbonMedal className='ach__ribbon'/>Specialist at Codeforces <a href='https://codeforces.com/profile/Kritik09' target='_blank'>@kritik09</a></h4>
+              <h4><GiRibbonMedal className='ach__ribbon'/>Grand Finalist at HackWithInfy</h4>
+              <h4><GiRibbonMedal className='ach__ribbon'/>Grand Finalist at TCS Codevita (Global Rank 19)</h4>
             </article>
             <article className="ach__article">
               <h2>Co-Curricular Achievements</h2>

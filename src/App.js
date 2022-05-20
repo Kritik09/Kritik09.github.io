@@ -1,3 +1,4 @@
+import React from "react";
 import { About } from "./components/About/About";
 import { Achievements } from "./components/Achievements/Achievements";
 import { Contact } from "./components/Contact/Contact";
