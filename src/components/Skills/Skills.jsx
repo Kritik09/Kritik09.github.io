@@ -4,6 +4,7 @@ import './skills.css'
 import coreData from './core.json'
 import devData from './development.json'
 import softwareData from './software.json'
+import lang from './lang.json'
 export const Skills = () => {
   return (
       <section id="skills">
@@ -26,7 +27,17 @@ export const Skills = () => {
                       })}
                   </div>
                   <div className="skills__inner__container">
-                      <h2>Development</h2>
+                      <h2>Languages Known</h2>
+                      {lang.map((x,id)=>{
+                          return(
+                              <div key={id}>
+                              <Progress skillName={x.name} wid={x.wid}/>
+                              </div>
+                          )
+                      })}
+                  </div>
+                  <div className="skills__inner__container">
+                      <h2>Development and FrameWorks</h2>
                       {devData.map((x,id)=>{
                           return(
                               <div key={id}>

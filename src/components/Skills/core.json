@@ -8,15 +8,19 @@
         "wid":65
     },
     {
+        "name":"Computer Networks",
+        "wid":70
+    },
+    {
         "name":"DBMS",
         "wid":65
     },
     {
         "name":"Operating System",
-        "wid":50
+        "wid":65
     },
     {
-        "name":"Computer Networks",
-        "wid":40
+        "name":"Software Engineering",
+        "wid":65
     }
 ]

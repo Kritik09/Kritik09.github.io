@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import {BsChevronDoubleDown} from 'react-icons/bs'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/KritikResume.pdf'
 export const Header = () => {
   return (
     <>

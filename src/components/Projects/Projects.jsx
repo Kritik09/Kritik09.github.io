@@ -1,8 +1,8 @@
 import React from 'react'
 import './projects.css'
 import sortingImg from '../../assets/sorting.jpg'
-import snakeImg from '../../assets/snake.jpg'
-import clockImg from '../../assets/clock.jpg'
+import graph from '../../assets/graph.jpg'
+import extension from '../../assets/extension.jpg'
 import portfolioImg from '../../assets/Portfolio.jpg'
 export const Projects = () => {
   const data=[
@@ -10,7 +10,7 @@ export const Projects = () => {
       name:"Personal Portfolio Website",
       id:"portfolio",
       image:portfolioImg,
-      about:"Completely responsive portfolio website using React JS",
+      about:"Completely responsive portfolio website using React JS for personal use",
       github:"https://github.com/Kritik09/Kritik09.github.io",
       demo:"https://kritik09.github.io"
     },
@@ -18,25 +18,25 @@ export const Projects = () => {
       name:"Sorting Algorithm Visualizer",
       id:"sorting",
       image:sortingImg,
-      about:"This app visualizes various sorting algorithm using React JS",
-      github:"https://github.com/Kritik09/ALGORITHM-VISUALIZER",
-      demo:"https://kritik09.github.io/ALGORITHM-VISUALIZER/"
+      about:"Sorting Algorithm Visualizer using HTML CSS and JS is a web based application that simulate the most use 7 sorting algorithm with the feature to resize the array and change the speed of the simulation to get a GUI based understanding of the sorting algorithms.",
+      github:"https://github.com/Kritik09/Visualizer",
+      demo:"https://kritik09.github.io/Visualizer/"
     },
     {
-      name:"Clock Using JS",
-      id:"clock",
-      image:clockImg,
-      about:"This is an implementation of Date Time Module of Javascript into a UI form",
-      github:"",
-      demo:""
+      name:"Codeforces Browser Extension",
+      id:"extension",
+      image:extension,
+      about:"This is Codeforces Browser extension/website that helps user to track their unsolved problem and get direct links to solve those problems",
+      github:"https://github.com/Kritik09/Codeforces-Problem-Picker/",
+      demo:"https://kritik09.github.io/Codeforces-Problem-Picker/"
     },
     {
-      name:"Snake Game Using C",
-      id:"snake",
-      image:snakeImg,
-      about:"This is a 8 bit snake game made using basic C programming",
-      github:"https://github.com/Kritik09/Snake-Game",
-      demo:""
+      name:"Graph Traversal Visualizer",
+      id:"graph",
+      image:graph,
+      about:"This is a web based application to visualize graph algorithms in the form of grid of nodes where currently have BFS and DFS compatibility and can trace a path between source to destination of somewhat what a grap traversal would do",
+      github:"https://github.com/Kritik09/GraphVisualizer",
+      demo:"https://kritik09.github.io/GraphVisualizer/"
     }
   ];
   function clicked(name){

@@ -6,7 +6,9 @@ export const About = () => {
         <div className="about__main">
           <div className="heading"><h1>About Me</h1></div>
           <article className="para">
-            <p>Hi! My name is Kritik Manral and I am currently pursuing my Btech in Computer Science and Engineering from Graphic Era Hill Univeristy Bhimtal (2019-2023)
+            <p>HI! I am a 3rd-year undergrad at Graphic Era Hill University pursuing a Bachelor of Technology majoring in Computer Science and Engineering and currently I amd interning with Samsung Research Institute Bangalore.
+I am a passionate Competitive Programmer and love giving structure to my ideas using coding.
+Currently, I am 4 star at CodeChef and a specialist at Codeforces, with that I am also World Finalist at TCS Codevita and Grand Finalist at HackWithInfy.
             </p>
           </article>
           <div className="about__details">
@@ -21,9 +23,12 @@ export const About = () => {
             </article>
             <article className="about__article intern">
               <h2 style={{textDecoration:"underline"}}>Internships</h2>
-              <h4>Virtual Research Intern at SRIB</h4>
+              <h4>Virtual Research Intern at Samsung Research Institute Bangalore</h4>
+              <h5>(REMOTE)</h5>
               <h5>( June 2021 - December 2021 )</h5>
-              <h4>Incoming Intern at SRIB</h4>
+              <h4>Summer Intern at Samsung Research Institute Bangalore</h4>
+              <h5>(REMOTE)</h5>
+              <h5>( July 2022 - Present)</h5>
             </article>
           </div>
         </div>

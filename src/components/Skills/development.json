@@ -1,15 +1,11 @@
 [
     {
-        "name":"Html",
-        "wid":70
-    },
-    {
-        "name":"CSS",
-        "wid":65
-    },
-    {
-        "name":"JavaScript",
+        "name":"Spring Boot",
         "wid":55
+    },
+    {
+        "name":"Spring MVC",
+        "wid":50
     },
     {
         "name":"React",
@@ -18,5 +14,9 @@
     {
         "name":"SQL",
         "wid":40
-    }
+    },
+    {
+        "name":"Kubernetes",
+        "wid":30
+    }   
 ]

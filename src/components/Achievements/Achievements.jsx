@@ -26,6 +26,7 @@ export const Achievements = () => {
               <h4><GiRibbonMedal className='ach__ribbon'/>President Of College Coding Club</h4>
               <h4><GiRibbonMedal className='ach__ribbon'/>Co-ordinator of Ducat's Competitive Programming Workshop</h4>
               <h4><GiRibbonMedal className='ach__ribbon'/>Tester and Problem Setter for We-Code</h4>
+              <h4><GiRibbonMedal className='ach__ribbon'/>Guest Speaker at "Challenges of Coding"</h4>
             </article>
           </div>
         </div>

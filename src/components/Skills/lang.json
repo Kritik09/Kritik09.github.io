@@ -1,0 +1,26 @@
+[
+    {
+        "name":"C/Cpp",
+        "wid":"80"
+    },
+    {
+        "name":"Java",
+        "wid":"70"
+    },
+    {
+        "name":"Html",
+        "wid":70
+    },
+    {
+        "name":"CSS",
+        "wid":65
+    },
+    {
+        "name":"JavaScript",
+        "wid":55
+    },
+    {
+        "name":"Python",
+        "wid":"50"
+    }
+]
