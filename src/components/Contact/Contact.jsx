@@ -25,7 +25,7 @@ export const Contact = () => {
               <div className="icon__area">
                 <BsWhatsapp className='contact__icons'/>
                 <h4>WhatsApp</h4>
-                <a href="https://api.whatsapp.com/send?phone=+918755130890" target='_blank'>Send Message!</a>
+                <a href="https://api.whatsapp.com/send?phone=918755130890" target='_blank'>Send Message!</a>
               </div>
               <div className="icon__area">
                 <HiMail className='contact__icons'/>
