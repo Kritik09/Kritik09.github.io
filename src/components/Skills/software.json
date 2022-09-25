@@ -1,11 +1,7 @@
 [
     {
-        "name":"VS-Code",
-        "wid":50
-    },
-    {
         "name":"Adobe PhotoShop",
-        "wid":45
+        "wid":50
     },
     {
         "name":"Adobe Illustrator",
@@ -13,11 +9,11 @@
     },
     {
         "name":"Adobe Premier Pro",
-        "wid":55
+        "wid":50
     },
     {
         "name":"Git Hub",
-        "wid":65
+        "wid":50
     },
     {
         "name":"Docker",

@@ -4,11 +4,11 @@
         "wid":80
     },
     {
-        "name":"OOPS",
-        "wid":65
+        "name":"Computer Networks",
+        "wid":70
     },
     {
-        "name":"Computer Networks",
+        "name":"OOPS",
         "wid":70
     },
     {
@@ -22,5 +22,9 @@
     {
         "name":"Software Engineering",
         "wid":65
+    },
+    {
+        "name":"Network Security",
+        "wid":50
     }
 ]

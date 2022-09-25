@@ -14,9 +14,5 @@
     {
         "name":"SQL",
         "wid":40
-    },
-    {
-        "name":"Kubernetes",
-        "wid":30
-    }   
+    }
 ]
